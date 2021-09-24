@@ -9,6 +9,8 @@
 }
 .item4 {
 	grid-area: bottom;
+	text-align: right;
+	width: 100%;
 }
 .item5 {
 	grid-area: me;
@@ -28,7 +30,7 @@
 		"main main main main main main"
 		"bottom bottom bottom bottom bottom bottom";
 	grid-gap: 10px;
-	background-color: rgb(14, 6, 6);
+	background-color: whitesmoke;
 	padding: 10px;
 	width: min(100%, 75rem);
 	margin: 0 auto;
