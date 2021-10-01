@@ -2,26 +2,25 @@
 	font-size: small;
 	color: #ffffff;
 }
-
 .grid-container {
 	display: grid;
-
 	gap: 10px;
-	background-color: #2196f3;
+	background-color: #74b479;
 	padding: 10px;
 	grid-auto-flow: row;
 	width: min(90%, 75rem);
 	margin: 0 auto;
+	font-size: 10px;
 }
 
 .grid-container > div {
-	background-color: #21b8f3;
+	background-color: #74b479;
 	text-align: center;
-	padding: 20px 0;
-	font-size: 30px;
+	padding: 5px 0;
+	font-size: 20px;
 }
 body {
-	background-color: #35424a;
+	background-color: #74b479;
 }
 .fuck {
 	display: inline-block;
