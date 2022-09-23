@@ -1,6 +1,10 @@
 h1 {
 	text-align: center;
 }
+.andreas {
+	text-align: left;
+	color: white;
+}
 .grid-container {
 	display: grid;
 	gap: 10px;
@@ -22,10 +26,7 @@ body {
 	background-color: #2d80a1;
 	font-size: larger;
 	height: 200vh;
-}
-
-.andreas {
-	color: #ffffff;
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
 }
 a {
 	text-decoration: none;
