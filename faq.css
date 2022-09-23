@@ -1,0 +1,36 @@
+h1 {
+	text-align: center;
+}
+.grid-container {
+	display: grid;
+	gap: 10px;
+	background-color: #144f64;
+	padding: 10px;
+	grid-auto-flow: row;
+	width: min(90%, 75rem);
+	margin: 0 auto;
+	font-size: 10px;
+}
+
+.grid-container > div {
+	background-color: #2998c4;
+	text-align: center;
+	padding: 5px 0;
+	font-size: 20px;
+}
+body {
+	background-color: #2d80a1;
+	font-size: larger;
+	height: 200vh;
+}
+
+.andreas {
+	color: #ffffff;
+}
+a {
+	text-decoration: none;
+	color:aquamarine;
+}
+p {
+	text-align: center;
+}
