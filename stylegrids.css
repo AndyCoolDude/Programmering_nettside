@@ -22,6 +22,7 @@
 	grid-gap: 0px;
 	padding: 0px;
 	overflow: false;
+	
 }
 
 .grid-container > div {
@@ -41,6 +42,13 @@ body {
 	margin: auto;
 	overflow: true;
 }
+
+.container4 {
+	width: 100%;
+	margin: auto;
+	overflow: true;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -49,25 +57,20 @@ ul {
 .itemMeny {
 	background: #74b479;
 	color: #ffffff;
-	padding-top: 30px;
-	min-height: 70px;
-	border-bottom: #1db9e8 3px solid;
-	padding-top: 30px;
+	border-bottom: #000000 3px solid;
 	float: right;
+	text-align: center;
 }
 
 .itemLogo {
 	background: #74b479;
 	color: #ffffff;
-	padding-top: 30px;
-	padding-left: 30px;
-	min-height: 70px;
-	border-bottom: #1db9e8 3px solid;
+	border-bottom: #000000 3px solid;
+	text-align: center;
 }
 
 .itemMeny a {
 	color: #ffffff;
-	padding-top: 30px;
 	text-decoration: none;
 	font-size: 16px;
 }
@@ -147,10 +150,13 @@ ul {
 /* Boxes */
 
 .box {
-	float: left;
+	display: block;
 	text-align: center;
-	width: 30%;
-	padding: 10px;
+	justify-content: center;
+	width: 100%;
+	padding-top: 10px;
+	background-color: rgb(244, 244, 244);
+	color:rgb(0, 0, 0)
 }
 
 .box img {
