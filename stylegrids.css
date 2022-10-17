@@ -109,7 +109,7 @@ ul {
 	overflow: hidden;
 	width: 100%;
 	min-height: 400px;
-	background: url("https://img.freepik.com/free-vector/blue-grunge-pattern-background_1409-1359.jpg?w=2000")
+	background: url("/img/bluebackground.jpg")
 		no-repeat 0 -400px;
 	text-align: center;
 	color: #ffffff;
