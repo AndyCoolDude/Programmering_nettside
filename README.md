@@ -1,2 +1,0 @@
-# nettside mal
- 
